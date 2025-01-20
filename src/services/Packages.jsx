@@ -2,7 +2,7 @@ import React from "react";
 
 import serviceImage1 from "../assets/service_1.jpg";
 import serviceImage2 from "../assets/service_2.jpg";
-import serviceImage3 from "../assets/service_3.jpeg";
+import serviceImage3 from "../assets/service_3.jpg";
 
 const Service = () => {
   return (

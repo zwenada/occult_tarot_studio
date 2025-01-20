@@ -9,8 +9,8 @@ import Goals from "./about/Goals";
 import Profiles from "./about/Profiles";
 import AboutContent from "./about/AboutContent";
 import Packages from "./services/Packages";
-import Ritual from "./services/ritual";
 import GetStart from "./services/GetStart";
+import Ritual from "./services/Ritual";
 
 // Combine components for the home page
 const Index = () => {
