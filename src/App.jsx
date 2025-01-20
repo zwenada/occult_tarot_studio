@@ -5,13 +5,41 @@ import Footer from "./components/Footer";
 import Home from "./Index/Home";
 import Tarot from "./Index/Tarot";
 import Card from "./Index/Card";
+import Goals from "./about/Goals";
+import Profiles from "./about/Profiles";
+import AboutContent from "./about/AboutContent";
+import Packages from "./services/Packages";
+import Ritual from "./services/ritual";
+import GetStart from "./services/GetStart";
 
+// Combine components for the home page
 const Index = () => {
   return (
     <>
       <Home />
       <Tarot />
       <Card />
+    </>
+  );
+};
+
+// Combine components for the About Us page
+const AboutUs = () => {
+  return (
+    <>
+      <AboutContent />
+      <Goals />
+      <Profiles />
+    </>
+  );
+};
+
+const Services = () => {
+  return (
+    <>
+      <Packages />
+      <Ritual />
+      <GetStart />
     </>
   );
 };
@@ -23,7 +51,9 @@ const App = () => {
         <Navbar />
         <div className="occult">
           <Routes>
-            <Route path="/" Component={Index} />
+            <Route path="/" element={<Index />} />
+            <Route path="/about" element={<AboutUs />} />
+            <Route path="/services" element={<Services />} />
           </Routes>
         </div>
         <Footer />

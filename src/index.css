@@ -85,7 +85,7 @@
   background-color: #4B0082;
 }
 
-.tarot-title {
+.tarot-title, .goal-title, .about-title, .get-title {
   padding-top: 20px;
   font-size: 3rem;
   text-align: center;
@@ -93,7 +93,7 @@
   font-family: 'Cinzel Decorative', cursive; 
 }
 
-.tarot-text {
+.tarot-text, .goal-text, .about-text, .get-text {
   padding-bottom: 20px;
  font-family: "Playfair Display", serif;
  font-size: large;
@@ -178,3 +178,103 @@ section {
   color: #FFD700; /* Gold */
   font-family: 'Cinzel Decorative', cursive; 
 }
+
+
+/* AboutUs.css */
+.about-us {
+  margin-top: 3px;
+  padding: 20px;
+  text-align: center;
+}
+
+
+
+/* Profiles container styles */
+.profiles-container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #4B0082; /* Indigo background */
+  border-radius: 10px;
+}
+
+/* Individual profile box */
+.profile {
+  display: inline-block;
+  width: 250px;
+  text-align: center;
+  background-color: #fff;
+  border: 2px solid #FFD700; /* Golden border */
+  border-radius: 10px;
+  padding: 15px;
+  margin: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.profile:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+}
+
+/* Profile name styles */
+.profile-name {
+  font-size: 20px;
+  font-weight: bold;
+  color: #FFD700; /* Golden color */
+  margin-bottom: 10px;
+  text-transform: uppercase; /* Capital letters */
+}
+
+/* Profile details list */
+.profile-details {
+  list-style-type: none;
+  padding: 0;
+}
+
+/* Profile image styles */
+.profile-image {
+  width: 100px; /* Adjust size as needed */
+  height: 100px;
+  border-radius: 50%; /* Circular image */
+  object-fit: cover; /* Ensures the image scales without distortion */
+  margin: 10px auto; /* Centers the image */
+  display: block; /* Ensures proper centering inside the card */
+  border: 3px solid #FFD700; /* Golden border for the image */
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.profile-image:hover {
+  transform: scale(1.1);
+  box-shadow: 0 4px 10px rgba(255, 215, 0, 0.8); /* Glow effect */
+}
+
+.detail {
+  font-size: 16px;
+  color: #4B0082; /* Indigo text */
+  margin: 5px 0;
+}
+
+.get-start-container {
+  text-align: center;
+  padding: 20px;
+}
+
+.get-start-button {
+  padding: 10px 20px;
+  background-color: gold;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 20px;
+  transition: background-color 0.3s;
+}
+
+.get-start-button:hover {
+  background-color: #b8860b; /* Darker gold shade */
+}
+

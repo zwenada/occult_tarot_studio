@@ -1,12 +1,15 @@
-import React from 'react';
-import 'bootstrap/dist/css/bootstrap.min.css';
-import 'bootstrap/dist/js/bootstrap.bundle.min.js';
+import React from "react";
+import "bootstrap/dist/css/bootstrap.min.css";
+import "bootstrap/dist/js/bootstrap.bundle.min.js";
+import { Link } from "react-router-dom"; 
 
 function Navbar() {
   return (
     <nav className="navbar navbar-dark fixed-top custom-navbar">
       <div className="container-fluid">
-        <a className="navbar-brand custom-logo" href="#">Occult Tarot Studio</a>
+        <Link className="navbar-brand custom-logo" to="/">
+          Occult Tarot Studio
+        </Link>
         <button
           className="navbar-toggler"
           type="button"
@@ -37,13 +40,19 @@ function Navbar() {
           <div className="offcanvas-body">
             <ul className="navbar-nav justify-content-end flex-grow-1 pe-3">
               <li className="nav-item">
-                <a className="nav-link active" aria-current="page" href="#">Home</a>
+                <Link className="nav-link active" aria-current="page" to="/">
+                  Home
+                </Link>
               </li>
               <li className="nav-item">
-                <a className="nav-link active" href="#">About</a>
+                <Link className="nav-link active" to="/about">
+                  About
+                </Link>
               </li>
               <li className="nav-item">
-                <a className="nav-link active" href="#">Services</a>
+                <Link className="nav-link active" to="/services">
+                  Services
+                </Link>
               </li>
             </ul>
           </div>
