@@ -1,8 +1,8 @@
 import React from "react";
 
-import magicImage1 from "../assets/magic_candle.jpg";
-import runeImage2 from "../assets/rune candle.jpg";
-import tarotImage3 from "../assets/tarot3.jpeg";
+import magicImage1 from "/public/assets/magic_candle.jpg";
+import runeImage2 from "/public/assets/rune candle.jpg";
+import tarotImage3 from "/public/assets/tarot3.jpeg";
 
 const Ritual = () => {
   return (
