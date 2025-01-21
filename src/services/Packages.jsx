@@ -2,6 +2,8 @@ import React from "react";
 
 import serviceImage1 from "/public/assets/service_1.jpg";
 import serviceImage2 from "/public/assets/service_3.jpg";
+import tarotImage1 from "/public/assets/tarot_1.jpg";
+import tarotImage2 from "/public/assets/tarot_2.jpg";
 const backgroundImage = "/assets/packages_bg.jpg";
 
 const Service = () => {
@@ -39,7 +41,7 @@ const Service = () => {
           </div>
         </div>
         <div className="card ">
-          <img src={serviceImage1} className="card-img-top" alt="..." />
+          <img src={tarotImage1} className="card-img-top" alt="..." />
           <div className="card-body">
             <h5 className="card-title daily-title">🌞 Daily Tarot Message</h5>
             <p className="daily-text">
@@ -95,7 +97,7 @@ const Service = () => {
           </div>
         </div>
         <div className="card ">
-          <img src={serviceImage2} className="card-img-top" alt="..." />
+          <img src={tarotImage2} className="card-img-top" alt="..." />
           <div className="card-body">
             <h5 className="card-title daily-title">🌞 Daily Tarot Message</h5>
             <p className="daily-text">
