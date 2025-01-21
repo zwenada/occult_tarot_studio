@@ -1,5 +1,5 @@
 import React from "react";
-const backgroundImage = "./src/assets/services_bg.jpg";
+const backgroundImage = "/public/assets/services_bg.jpg";
 const Tarot = () => {
   return (
     <section style={{ backgroundImage: `url(${backgroundImage})` }}>

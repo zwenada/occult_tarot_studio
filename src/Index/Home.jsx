@@ -1,6 +1,6 @@
 import React from "react";
 
-const backgroundImage = "./assets/aboutus_bg.jpg";
+const backgroundImage = "/public/assets/background.png";
 
 const Home = () => {
   return (
