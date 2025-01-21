@@ -1,10 +1,17 @@
 import React from "react";
 import profileImage1 from "/public/assets/admin_1.jpg";
 import profileImage2 from "/public/assets/admin_2.jpg";
+const backgroundImage = "/assets/aboutus_bg.jpg";
 
 const Profiles = () => {
   return (
-    <section>
+    <section style={{ backgroundImage: `url(${backgroundImage})` }}>
+      <div className="tarot-section overlay">
+          <h1 className="tarot-title">Where Do I contact?</h1>
+          <p className="tarot-text">
+            You can contact with us by click on our profiles.
+          </p>
+        </div>
       <div className="profiles-container">
         <div className="profile">
           <a

@@ -8,7 +8,7 @@ function Navbar() {
     <nav className="navbar navbar-dark fixed-top custom-navbar">
       <div className="container-fluid">
         <Link className="navbar-brand custom-logo" to="/">
-          Occult Tarot Studio
+          Occult Studio
         </Link>
         <button
           className="navbar-toggler"
@@ -43,10 +43,13 @@ function Navbar() {
                 <a href="#Home">Home</a>
               </li>
               <li className="nav-item">
+                <a href="#Services">Services</a>
+              </li>
+              <li className="nav-item">
                 <a href="#AboutUs">About</a>
               </li>
               <li className="nav-item">
-                <a href="#Services">Services</a>
+                <a href="#Contact">Contact</a>
               </li>
             </ul>
           </div>
