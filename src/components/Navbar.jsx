@@ -1,7 +1,7 @@
 import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap.bundle.min.js";
-import { Link } from "react-router-dom"; 
+import { Link } from "react-router-dom";
 
 function Navbar() {
   return (
@@ -40,19 +40,13 @@ function Navbar() {
           <div className="offcanvas-body">
             <ul className="navbar-nav justify-content-end flex-grow-1 pe-3">
               <li className="nav-item">
-                <Link className="nav-link active" aria-current="page" to="/">
-                  Home
-                </Link>
+                <a href="#Home">Home</a>
               </li>
               <li className="nav-item">
-                <Link className="nav-link active" to="/about">
-                  About
-                </Link>
+                <a href="#AboutUs">About</a>
               </li>
               <li className="nav-item">
-                <Link className="nav-link active" to="/services">
-                  Services
-                </Link>
+                <a href="#Services">Services</a>
               </li>
             </ul>
           </div>

@@ -15,7 +15,7 @@ const Service = () => {
           <img src={serviceImage1} className="card-img-top" alt="..." />
           <div className="card-body">
             <h5 className="card-title daily-title">🌞 Daily Tarot Message</h5>
-            <ul className="package-list">
+            <ul className="package-list daily-text">
               <li className="package-item">
                 <strong>Package Name:</strong> Daily Tarot Insight
               </li>
@@ -34,7 +34,7 @@ const Service = () => {
           <img src={serviceImage2} className="card-img-top" alt="..." />
           <div className="card-body">
             <h5 className="card-title daily-title">🌞 Daily Tarot Message</h5>
-            <ul className="package-list">
+            <ul className="package-list daily-text">
               <li className="package-item">
                 <strong>Package Name:</strong> Daily Tarot Insight
               </li>
@@ -53,7 +53,7 @@ const Service = () => {
           <img src={serviceImage3} className="card-img-top" alt="..." />
           <div className="card-body">
             <h5 className="card-title daily-title">🌞 Daily Tarot Message</h5>
-            <ul className="package-list">
+            <ul className="package-list daily-text">
               <li className="package-item">
                 <strong>Package Name:</strong> Daily Tarot Insight
               </li>

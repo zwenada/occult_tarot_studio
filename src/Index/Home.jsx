@@ -1,6 +1,6 @@
 import React from 'react'
 
-const backgroundImage = "/src/assets/tarot-card-reading.jpg"
+const backgroundImage = "/src/assets/background.png"
 
 const Home = () => {
   return (
@@ -10,8 +10,6 @@ const Home = () => {
   >
     <div className="overlay">
       <h1 className="hero-title">Unlock the Secrets of the Universe</h1>
-      <p className="hero-subtitle">Let the cards reveal your path to clarity and purpose.</p>
-      <button className="cta-button">Draw Your Cards</button>
     </div>
   </div>
 );
