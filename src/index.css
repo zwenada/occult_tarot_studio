@@ -76,10 +76,6 @@
   border-top: 2px solid #ffd700;
 }
 
-.tarot-background {
-  background-color: #4B0082;
-}
-
 .tarot-title, .goal-title, .about-title, .get-title {
   padding-top: 20px;
   font-size: 3rem;
@@ -171,7 +167,6 @@
 }
 
 section {
-  background-color: #4B0082;
   padding: 40px;
 }
 
