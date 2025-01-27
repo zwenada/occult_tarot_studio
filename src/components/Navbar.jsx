@@ -42,13 +42,13 @@ function Navbar() {
               <li className="nav-item">
                 <a href="#Home">Home</a>
               </li>
-              <li className="nav-item">
+              <li className="nav-item my-3">
                 <a href="#Services">Services</a>
               </li>
               <li className="nav-item">
                 <a href="#AboutUs">About</a>
               </li>
-              <li className="nav-item">
+              <li className="nav-item mt-3">
                 <a href="#Contact">Contact</a>
               </li>
             </ul>

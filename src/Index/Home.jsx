@@ -10,7 +10,6 @@ const Home = () => {
     >
       <div className="overlay">
         <h1 className="hero-title">Unlock the Secrets of the Universe</h1>
-        
       </div>
     </div>
   );

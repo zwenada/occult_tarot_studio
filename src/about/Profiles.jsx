@@ -26,10 +26,10 @@ const Profiles = () => {
             />
           </a>
 
-          <h2 className="profile-name">JANE SMITH</h2>
+          <h2 className="profile-name">Sayr Zwel</h2>
           <ul className="profile-details">
             <li className="detail">Tarot Reader</li>
-            <li className="detail">Expert in Spiritual Growth</li>
+            <li className="detail">Magus</li>
           </ul>
         </div>
         <div className="profile">
@@ -40,10 +40,10 @@ const Profiles = () => {
           >
             <img src={profileImage2} alt="John Doe" className="profile-image" />
           </a>
-          <h2 className="profile-name">JANE SMITH</h2>
+          <h2 className="profile-name">Sao Nan Waddy</h2>
           <ul className="profile-details">
             <li className="detail">Tarot Reader</li>
-            <li className="detail">Expert in Spiritual Growth</li>
+            <li className="detail">Spellcraft and Candle magic</li>
           </ul>
         </div>
       </div>

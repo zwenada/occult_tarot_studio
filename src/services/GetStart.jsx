@@ -11,7 +11,14 @@ const GetStart = () => {
           a personalized reading. Whether you're seeking guidance, clarity, or a
           new perspective, the Tarot is here to help you on your path.
         </p>
-        <button className="get-start-button">Get Started</button>
+        <a
+          href="https://www.facebook.com/profile.php?id=61556887649786"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="get-start-link"
+        >
+          <button className="get-start-button">Get Started</button>
+        </a>
       </div>
     </section>
   );

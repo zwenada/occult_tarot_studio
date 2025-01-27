@@ -53,7 +53,6 @@
   margin-bottom: 20px;
 }
 
-
 /* Footer styling */
 .footer {
   background-color: #2e0854; /* Darker Deep Purple */
@@ -88,7 +87,7 @@
 
 .card {
   border: #4b0082;
-  border-radius: 10%;
+  border-radius: 3%;
   height: 630px;
   overflow: hidden;
 }
@@ -116,7 +115,7 @@
   position: absolute;
   top: -100%;
   left: 0;
-  text-align: center;
+  text-align: justify;
   width: 100%;
   padding: 10px;
   transition: top 0.4s ease-in-out;
@@ -124,7 +123,7 @@
 
 .card:hover .hover-text {
   top: 0;
-  background-color:  rgba(31, 1, 36, 0.7);
+  background-color: rgba(31, 1, 36, 0.7);
 }
 
 .daily-title {
@@ -139,6 +138,7 @@
   font-size: 1rem;
   color: #333;
   padding: 20px;
+  text-align: justify;
 }
 
 .weekly-title {
@@ -151,9 +151,8 @@
 .weekly-text {
   font-family: "Playfair Display SC", serif;
   font-size: 1rem;
-  color:  #ffd700;
+  color: #ffd700;
   padding: 20px;
-  text-align: center;
 }
 
 .ritual-title {
@@ -254,7 +253,7 @@ section {
 .detail {
   font-family: "Playfair Display SC", serif;
   font-size: 16px;
-  color: #4b0082; 
+  color: #4b0082;
   margin: 5px 0;
 }
 
