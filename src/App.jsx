@@ -9,8 +9,8 @@ import AboutContent from "./about/AboutContent";
 import Packages from "./services/Packages";
 import GetStart from "./services/GetStart";
 import Ritual from "./services/Ritual";
-import UserList from './pages/UserList';
-import DashboardCharts from './pages/DashboardCharts';
+import UserList from "./pages/UserList";
+import DashboardCharts from "./pages/DashboardCharts";
 
 // Combine components for the home page
 const Index = () => {
@@ -50,7 +50,7 @@ const Services = () => {
 };
 
 // Admin Dashboard Component
-const AdminDashboard = () => {
+const Admin = () => {
   return (
     <>
       <UserList />
@@ -65,23 +65,26 @@ const App = () => {
       <BrowserRouter>
         <Navbar />
         <Routes>
-          <Route path="/" element={
-            <>
-              <div id="Home">
-                <Index />
-              </div>
-              <div id="Services">
-                <Services />
-              </div>
-              <div id="AboutUs">
-                <AboutUs />
-              </div>
-              <div id="Contact">
-                <Contact />
-              </div>
-            </>
-          } />
-          <Route path="/admin" element={<AdminDashboard />} />
+          <Route
+            path="/"
+            element={
+              <>
+                <div id="Home">
+                  <Index />
+                </div>
+                <div id="Services">
+                  <Services />
+                </div>
+                <div id="AboutUs">
+                  <AboutUs />
+                </div>
+                <div id="Contact">
+                  <Contact />
+                </div>
+              </>
+            }
+          />
+          <Route path="/Admin" element={<Admin />} />
         </Routes>
         <Footer />
       </BrowserRouter>
