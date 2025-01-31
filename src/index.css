@@ -20,7 +20,7 @@
 }
 
 .nav-item a {
-  font-family: "Playfair Display SC", serif;
+  font-family: "Roboto CondensedRoboto Condensed", serif;
   color: #e0e0e0;
   text-decoration: none;
 }
@@ -80,8 +80,8 @@
 .about-text,
 .get-text {
   padding-bottom: 20px;
-  font-family: "Playfair Display SC", serif;
-  font-size: large;
+  font-family: "Roboto Condensed", serif;
+  font-weight: 400;
   color: #ffd700;
 }
 
@@ -127,47 +127,49 @@
 }
 
 .daily-title {
-  font-family: "Playfair Display SC", serif;
-  font-size: 1.5rem;
+  font-family: "Roboto Condensed", serif;
+  font-size: 2rem;
   color: #6a0572;
   text-align: center;
 }
 
 .daily-text {
-  font-family: "Playfair Display SC", serif;
+  font-family: "Roboto Condensed", serif;
   font-size: 1rem;
+  font-weight: 500;
   color: #333;
   padding: 20px;
   text-align: justify;
 }
 
 .weekly-title {
-  font-family: "Playfair Display SC", serif;
+  font-family: "Roboto Condensed", serif;
   font-size: 1.5rem;
   color: #034c3c;
   text-align: center;
 }
 
 .weekly-text {
-  font-family: "Playfair Display SC", serif;
+  font-family: "Roboto Condensed", serif;
+  font-weight: 400;
   font-size: 1rem;
   color: #ffd700;
   padding: 20px;
 }
 
-.ritual-title {
-  font-family: "Playfair Display SC", serif;
+/* .ritual-title {
+  font-family: "Roboto Condensed", serif;
   font-size: 1.5rem;
   color: #c70039;
   text-align: center;
 }
 
 .ritual-text {
-  font-family: "Playfair Display SC", serif;
+  font-family: "Roboto Condensed", serif;
   font-size: 1rem;
   color: #555;
   padding: 20px;
-}
+} */
 
 section {
   padding: 40px;
@@ -212,6 +214,10 @@ section {
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
+.position-relative {
+  position: relative !important;
+}
+
 .profile:hover {
   transform: translateY(-5px);
   box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
@@ -219,7 +225,7 @@ section {
 
 /* Profile name styles */
 .profile-name {
-  font-family: "Playfair Display SC", serif;
+  font-family: "Roboto Condensed", serif;
   font-size: 20px;
   font-weight: bold;
   color: #ffd700; /* Golden color */
@@ -251,10 +257,15 @@ section {
 }
 
 .detail {
-  font-family: "Playfair Display SC", serif;
+  font-family: "Roboto Condensed", serif;
   font-size: 16px;
   color: #4b0082;
   margin: 5px 0;
+}
+
+.user-bg {
+  background-color: white;
+  animation:reverse 10s infinite linear;
 }
 
 .get-start-container {
@@ -263,12 +274,12 @@ section {
 }
 
 .get-start-button {
-  font-family: "Playfair Display SC", serif;
+  font-family: "Roboto Condensed", serif;
   padding: 10px 20px;
   background-color: gold;
   border: none;
   border-radius: 5px;
-  color: white;
+  color: purple;
   font-size: 16px;
   cursor: pointer;
   margin-top: 20px;

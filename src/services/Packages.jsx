@@ -15,7 +15,7 @@ const Service = () => {
       <div className="card-group card-display">
       <div className="card ">
           <img src={serviceImage1} className="card-img-top" alt="..." />
-          <div className="card-body">
+          {/* <div className="card-body"> */}
             <h5 className="card-title daily-title">🌞 Daily Tarot Message</h5>
             <p className="daily-text">
               Daily Tarot is the reading for your day. We will take care the
@@ -37,7 +37,7 @@ const Service = () => {
                   <strong>Price:</strong> $20
                 </li>
               </ul>
-            </div>
+            {/* </div> */}
           </div>
         </div>
         <div className="card ">
