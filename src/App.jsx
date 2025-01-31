@@ -1,5 +1,5 @@
 import React from "react";
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 import Home from "./Index/Home";
@@ -66,7 +66,7 @@ const AdminDashboard = () => {
 const App = () => {
   return (
     <>
-      <Router>
+      <BrowserRouter>
         <Navbar />
         <Routes>
           <Route path="/" element={
@@ -88,7 +88,7 @@ const App = () => {
           <Route path="/admin" element={<AdminDashboard />} />
         </Routes>
         <Footer />
-      </Router>
+      </BrowserRouter>
     </>
   );
 };
