@@ -11,7 +11,6 @@ import GetStart from "./services/GetStart";
 import Ritual from "./services/Ritual";
 import UserList from './pages/UserList';
 import DashboardCharts from './pages/DashboardCharts';
-import { Container, Typography } from '@mui/material';
 
 // Combine components for the home page
 const Index = () => {
@@ -53,13 +52,10 @@ const Services = () => {
 // Admin Dashboard Component
 const AdminDashboard = () => {
   return (
-    <Container>
-      <Typography variant="h3" gutterBottom>
-        Tarot Admin Dashboard
-      </Typography>
+    <>
       <UserList />
       <DashboardCharts />
-    </Container>
+    </>
   );
 };
 
